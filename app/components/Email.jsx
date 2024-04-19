@@ -8,7 +8,7 @@ const Email = () => {
         <section className='grid justify-center lg:w-3/4 mx-auto lg:grid-cols-2 my-0 md:my-12 py-20 gap-4 relative' id="contact">
             <div className='text-center lg:text-left z-10'>
 
-                <h5 className='text-xl font-bold text-white my-2'>Let us Connect</h5>
+            <span className='text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Let us connect</span>
                 <p className='text-[#ADB7BE] mb-4 max-w-md'>
 
                     Have a question or want to collaborate? Feel free to reach out! Your message is important to me, and I am eager to connect. Whether it is discussing a potential project, sharing feedback, or simply saying hello, I am just a click away. Let us start the conversation!</p>
