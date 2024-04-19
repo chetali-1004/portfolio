@@ -5,7 +5,7 @@ import Connectlink from "./Connectlink";
 const Email = () => {
 
     return (
-        <section className='grid justify-center lg:w-3/4 mx-auto lg:grid-cols-2 my-0 md:my-12 py-20 gap-4 relative'>
+        <section className='grid justify-center lg:w-3/4 mx-auto lg:grid-cols-2 my-0 md:my-12 py-20 gap-4 relative' id="contact">
             <div className='text-center lg:text-left z-10'>
 
                 <h5 className='text-xl font-bold text-white my-2'>Let us Connect</h5>
