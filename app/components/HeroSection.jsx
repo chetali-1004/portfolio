@@ -14,7 +14,6 @@ const HeroSection = () => {
 
                         Hello, I&apos;m <br />
 
-                        Hello, I'm <br />
 
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "><TypeAnimation
                             sequence={[

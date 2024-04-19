@@ -3,9 +3,6 @@
 import React from "react";
 import Connectlink from "./Connectlink";
 
-import React from 'react';
-import Connectlink from './Connectlink';
-
 
 const Email = () => {
 
@@ -18,12 +15,7 @@ const Email = () => {
 
                     Have a question or want to collaborate? Feel free to reach out! Your message is important to me, and I am eager to connect. Whether it is discussing a potential project, sharing feedback, or simply saying hello, I am just a click away. Let us start the conversation!</p>
 
-                <h5 className='text-xl font-bold text-white my-2'>Let's Connect</h5>
-                <p className='text-[#ADB7BE] mb-4 max-w-md'>
-
-                    Have a question or want to collaborate? Feel free to reach out! Your message is important to me, and I'm eager to connect. Whether it's discussing a potential project, sharing feedback, or simply saying hello, I'm just a click away. Let's start the conversation!
-
-                </p>
+                
                 <div className='socials flex flex-row gap-2 justify-center lg:justify-start'>
                     <Connectlink href='/' icon='github' />
                     <Connectlink href='/' icon='linkedin' />
