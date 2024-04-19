@@ -11,7 +11,6 @@ const Projectcard = ({ image, title, desc }) => {
 
                 <Image src={image} className='rounded-2xl' width={500} height = {500}></Image>
 
-                <img src={image} className='rounded-2xl'></img>
 
                 <div className='absolute h-full w-full bg-gradient-to-r from-purple-400/90 to-pink-600/90 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-2xl'>
                     <p className='p-3 font-semibold text-xs md:text-lg text-black'>{desc}</p>
