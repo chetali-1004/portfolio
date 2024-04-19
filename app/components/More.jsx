@@ -11,9 +11,9 @@ const More = () => {
                     Embark on my coding odyssey—a journey of continual growth and learning. I delved into Java in my first year, explored data structures and algorithms in my second, leading to an internship at Microsoft in my third. Presently, I&apos;m immersed in web development, sharpening my skills for innovative solutions.
                 </p>
                 <div className='flex w-3/4 mx-auto mt-2 justify-center'>
-                    <Morelink href='https://github.com/chetali-1004' icon='github' />
-                    <Morelink href='https://leetcode.com/Chetali1/' icon='leetcode' />
-                    <Morelink href='https://www.geeksforgeeks.org/user/chetaligmdf3/' icon='gfg' />
+                    <Morelink href='https://github.com/chetali-1004' path='/images/github.png' />
+                    <Morelink href='https://leetcode.com/Chetali1/' path='/images/leetcode.png' />
+                    <Morelink href='https://www.geeksforgeeks.org/user/chetaligmdf3/' path='/images/gfg.png' />
                 </div>
 
             </div>

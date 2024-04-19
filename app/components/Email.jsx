@@ -15,8 +15,8 @@ const Email = () => {
 
                 
                 <div className='socials flex flex-row gap-2 justify-center lg:justify-start'>
-                    <Connectlink href='/' icon='github' />
-                    <Connectlink href='/' icon='linkedin' />
+                    <Connectlink href='https://github.com/chetali-1004' path='/images/github.png' />
+                    <Connectlink href='https://www.linkedin.com/in/chetali-goyal-020860227/' path='/images/linkedin.png' />
                 </div>
             </div>
 
