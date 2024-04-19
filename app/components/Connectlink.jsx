@@ -3,7 +3,7 @@ import React from 'react'
 import Image from "next/image";
 const Connectlink = ({href, icon}) => {
   return (
-    <Link href={href} target="_blank"><Image src={`./images/${icon}.png`} alt={'let\'s connect'} width={40} height={40} className="border-2 p-1 rounded-full mx-3 mt-2 hover:bg-slate-600"></Image></Link>
+    <Link href={href} target="_blank"><Image src={`/images/${icon}.png`} alt={'let\'s connect'} width={40} height={40} className="border-2 p-1 rounded-full mx-3 mt-2 hover:bg-slate-600"></Image></Link>
   )
 }
 
