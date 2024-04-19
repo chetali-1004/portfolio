@@ -7,11 +7,7 @@ const Projects = () => {
             <div className='md:flex md:flex-col flex-row items-center text-center'>
                 <span className='text-3xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Projects</span>
                 <div className='w-5/6 items-center text-center mx-auto my-5'>
-<<<<<<< HEAD
                     <p className='text-[#ADB7BE] text-lg'>&quot;From inception to execution, witness how each endeavor showcases problem-solving skills, creativity, and technical finesse. Explore tangible results driving impactful solutions and pushing boundaries in dynamic environments.&quot;</p>
-=======
-                    <p className='text-[#ADB7BE] text-lg'>"From inception to execution, witness how each endeavor showcases problem-solving skills, creativity, and technical finesse. Explore tangible results driving impactful solutions and pushing boundaries in dynamic environments."</p>
->>>>>>> df80d114f76ce1e415df884e858ac76106d1fa5d
                     <div className='grid sm:grid-cols-1 md:grid-cols-2 mt-10 gap-4'>
                             <Projectcard
                                 title='Portfolio Website'
