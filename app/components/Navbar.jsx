@@ -71,9 +71,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='flex'>
-                    <Connectlink href={'https://www.linkedin.com/in/chetali-goyal-020860227/'} icon='linkedin'/>
-                    <Connectlink href={'https://github.com/chetali-1004'} path='github'/>
-                    <Connectlink href={'https://drive.google.com/file/d/1z5xGM6NDznH-iwvldfi5xFPlS41Wy-Be/view?usp=sharing'} icon='resume'/>
+                    <Connectlink href={'https://www.linkedin.com/in/chetali-goyal-020860227/'} path='/images/linkedin.png'/>
+                    <Connectlink href={'https://github.com/chetali-1004'} path='/images/github.png'/>
+                    <Connectlink href={'https://drive.google.com/file/d/1z5xGM6NDznH-iwvldfi5xFPlS41Wy-Be/view?usp=sharing'} path='/images/resume.png'/>
                 </div>
             </div>
             {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
