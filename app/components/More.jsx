@@ -7,7 +7,11 @@ const More = () => {
             <div className='bg-[#313131] w-full p-6 rounded-xl items-center text-center'>
                 <span className='text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Coding Journey</span>
                 <p className='mt-4'>
+<<<<<<< HEAD
                     Embark on my coding odyssey—a journey of continual growth and learning. I delved into Java in my first year, explored data structures and algorithms in my second, leading to an internship at Microsoft in my third. Presently, I&apos;m immersed in web development, sharpening my skills for innovative solutions.
+=======
+                    Embark on my coding odyssey—a journey of continual growth and learning. I delved into Java in my first year, explored data structures and algorithms in my second, leading to an internship at Microsoft in my third. Presently, I'm immersed in web development, sharpening my skills for innovative solutions.
+>>>>>>> df80d114f76ce1e415df884e858ac76106d1fa5d
                 </p>
                 <div className='flex w-3/4 mx-auto mt-2 justify-center'>
                     <Morelink href='https://github.com/chetali-1004' icon='github' />

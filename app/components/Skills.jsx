@@ -7,7 +7,11 @@ const Skills = () => {
       <div className='md:flex md:flex-col flex-row items-center text-center'>
         <span className='text-3xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Skill Set</span>
         <div className='w-5/6 items-center text-center mx-auto my-5'>
+<<<<<<< HEAD
           <p className='text-[#ADB7BE] text-lg'>&quot;Powered by expertise in leading-edge technologies and programming languages, I possess a versatile skill set to engineer innovative solutions, sparking triumph in dynamic endeavors.&quot;</p>
+=======
+          <p className='text-[#ADB7BE] text-lg'>"Powered by expertise in leading-edge technologies and programming languages, I possess a versatile skill set to engineer innovative solutions, sparking triumph in dynamic endeavors."</p>
+>>>>>>> df80d114f76ce1e415df884e858ac76106d1fa5d
           <div className='grid sm:grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mt-10 gap-4'>
             <Skillcard image='/images/java.png' skill='Java' />
             <Skillcard image='/images/dsa.png' skill='DSA' />

@@ -11,7 +11,11 @@ const HeroSection = () => {
                 <div className={'col-span-7 place-self-center text-center'}>
 
                     <h1 className={'text-white mb-4 text-2xl sm:text-3xl lg:text-6xl font-extrabold'}>
+<<<<<<< HEAD
                         Hello, I&apos;m <br />
+=======
+                        Hello, I'm <br />
+>>>>>>> df80d114f76ce1e415df884e858ac76106d1fa5d
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "><TypeAnimation
                             sequence={[
                                 'Chetali',
@@ -32,7 +36,11 @@ const HeroSection = () => {
                         <br /> With a commitment to practicality and the ability to grasp new concepts swiftly, I bring a strong problem-solving attitude to the table. Continuously striving to stay abreast of industry trends, I am dedicated to delivering innovative solutions.
                     </p>
                     <div>
+<<<<<<< HEAD
                         <button className={'px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white '}>Let&apos;s Connect</button>
+=======
+                        <button className={'px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white '}>Let's Connect</button>
+>>>>>>> df80d114f76ce1e415df884e858ac76106d1fa5d
                         <button className={'px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'}>
                             <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
                         </button>
