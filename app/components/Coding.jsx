@@ -5,8 +5,8 @@ const More = () => {
     return (
         <section className='mt-[10px] rounded-xl md:py-10 py-7 md:w-3/4 w-full mx-auto flex-col flex gap-5 lg:flex-cols-2' id="more">
             <div className='bg-[#313131] w-full p-6 rounded-xl items-center text-center'>
-                <span className='text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Coding Journey</span>
-                <p className='mt-4'>
+            <span className='text-xl lg:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Coding Journey</span>
+                <p className='mt-7 px-5 text-md text-[#ADB7BE]'>
 
                     Embark on my coding odyssey—a journey of continual growth and learning. I delved into Java in my first year, explored data structures and algorithms in my second, leading to an internship at Microsoft in my third. Presently, I&apos;m immersed in web development, sharpening my skills for innovative solutions.
                 </p>

@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Coding from "./components/Coding";
 import Email from "./components/Email";
 import Footer from "./components/Footer"
+import Experience from "./components/Experience"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#181818]">
@@ -14,6 +15,7 @@ export default function Home() {
             <Skills />
             <Projects />
             <Coding />
+            <Experience />
             <Email />
         </div>
         <Footer />

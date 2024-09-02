@@ -8,7 +8,7 @@ import { saveAs } from "file-saver";
 const HeroSection = () => {
     const saveFile = () => {
         saveAs(
-          "/chetali-resume.pdf", "chetali_resume"
+          "/chetali_goyal_cv.pdf", "chetali_resume"
         );
       };
     return (

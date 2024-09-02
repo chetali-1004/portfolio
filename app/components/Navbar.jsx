@@ -21,8 +21,12 @@ const navLinks = [
         path: "#projects"
     },
     {
-        title: "More",
+        title: "Journey",
         path: "#more"
+    },
+    {
+        title: "Experience",
+        path: "#experience"
     },
     {
         title: "Contact",
@@ -61,7 +65,7 @@ const Navbar = () => {
                     }
                 </div>}
                 <div className='  menu hidden lg:block md:w-auto' id="navbar">
-                    <ul className=' flex p-4 md:p-0 md:flex-row md:space-x-6 mt-4 mb-4 font-semibold'>
+                    <ul className=' flex p-4 md:p-0 md:flex-row md:space-x-1 mt-4 mb-4 font-semibold'>
                         {
                             navLinks.map((link, index) => (
                                 <li key={index} className='px-6 py-2 rounded-full hover:bg-slate-800'>
@@ -73,7 +77,7 @@ const Navbar = () => {
                 <div className='flex'>
                     <Connectlink href={'https://www.linkedin.com/in/chetali-goyal-020860227/'} path='/images/linkedin.png'/>
                     <Connectlink href={'https://github.com/chetali-1004'} path= '/images/github.png'/>
-                    <Connectlink href={'https://drive.google.com/file/d/1z5xGM6NDznH-iwvldfi5xFPlS41Wy-Be/view?usp=sharing'} path='/images/resume.png'/>
+                    <Connectlink href={'https://drive.google.com/file/d/1ZG05IGQgaUgaqm--N4ib23oH-rp2v1C9/view?usp=sharing'} path='/images/resume.png'/>
                 </div>
             </div>
             {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
