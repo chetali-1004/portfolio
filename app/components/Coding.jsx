@@ -17,7 +17,7 @@ const More = () => {
                 </div>
 
             </div>
-            <div className='bg-[#313131] w-full p-6 rounded-xl items-center text-center'>
+            {/* <div className='bg-[#313131] w-full p-6 rounded-xl items-center text-center'>
                 <span className='text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Extra Curricular</span>
                 <p className='mt-4 text-[#ADB7BE]'>
                     Check out my extracurricular engagements, where I thrive beyond academics. From leadership roles to sports, explore how I balance passion with purpose, enriching my college experience and contributing positively to the community around me.
@@ -34,7 +34,7 @@ const More = () => {
                     </p>
                 </div>
 
-            </div>
+            </div> */}
         </section>
     )
 }

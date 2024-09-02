@@ -31,3 +31,31 @@ body {
     text-wrap: balance;
   }
 }
+
+.skills-container {
+  position: relative;
+  overflow: hidden;
+  width: 80%; /* Adjust based on your layout */
+  margin: 0 auto;
+}
+
+.skills-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 200%; /* Double the width of the container to allow for seamless scrolling */
+  animation: scroll 20s linear infinite; /* Adjust timing as needed */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Scroll half of the total width to create a seamless effect */
+  }
+}
+
+/* Hide scrollbar */
+.skills-container::-webkit-scrollbar {
+  display: none;
+}
