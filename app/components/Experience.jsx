@@ -98,7 +98,7 @@ const Experience = () => {
                 target="_blank"
                 className="flex px-2 py-1 rounded hover:bg-[#313131] text-sm items-center mt-3 text-white w-25"
               >
-                <span className="text-[#ADB7BE] group-hover:underline">View certificate</span>
+                <span className="text-[#ADB7BE] group-hover:underline text-md">View certificate</span>
                 <Image
                   src="/images/maximize.png"
                   width={15}
