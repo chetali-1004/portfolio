@@ -13,10 +13,10 @@ const Experience = () => {
         </span>
         {/* bg-[#484747] */}
 
-        <div className="mt-9 w-5/6 mx-auto px-0 py-5 ">
-          <div className="flex justify-between">
+        <div className="md:mt-9 w-5/6 mx-auto px-0 py-5 ">
+          <div className="md:flex justify-between">
             <div className="text-left">
-              <h4 className="font-bold italic text-lg">
+              <h4 className="md:text-lg font-bold italic text-md">
                 Software Development Engineer Intern
               </h4>
               <h6 className="text-sm mt-1 text-[#5f69cc] font-bold">
@@ -36,7 +36,7 @@ const Experience = () => {
                 <div className="italic text-sm">May 2024 - July 2024</div>
               </div>
 
-              <div className="flex my-2 items-center justify-end">
+              <div className="flex my-2 items-center md:justify-end">
                 <div>
                   <Image
                     src="/images/placeholder.png"
