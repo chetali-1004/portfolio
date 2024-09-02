@@ -13,10 +13,10 @@ const Experience = () => {
         </span>
         {/* bg-[#484747] */}
 
-        <div className="mt-9 w-3/4 mx-auto px-0 py-5">
+        <div className="mt-9 w-5/6 mx-auto px-0 py-5 ">
           <div className="flex justify-between">
             <div className="text-left">
-              <h4 className="font-bold italic">
+              <h4 className="font-bold italic text-lg">
                 Software Development Engineer Intern
               </h4>
               <h6 className="text-sm mt-1 text-[#5f69cc] font-bold">
@@ -49,7 +49,7 @@ const Experience = () => {
               </div>
             </div>
           </div>
-          <div className="mt-2 text-left text-sm">
+          <div className="mt-2 text-left text-md">
             <p>
               Worked as part of Experiences and Devices Team in the M-365
               organization with primary focus to enrich the user experience and
